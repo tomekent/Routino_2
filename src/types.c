@@ -241,6 +241,25 @@ const char *HighwayName(Highway highway)
     return("steps");
    case Highway_Ferry:
     return("ferry");
+   case Highway_Check_in:
+    return("check_in");
+   case Highway_Check_in_dom:
+    return("check_in_dom");
+   case Highway_Check_in_int:
+    return("check_in_int");
+   case Highway_Check_out_dom:
+    return("check_out_dom");
+   case Highway_Check_out_int:
+    return("check_out_int");
+   case Highway_Taxi:
+    return("taxi");
+   case Highway_Flight_short:
+    return("flight_short");
+   case Highway_Flight_medium:
+    return("flight_medium");
+   case Highway_Flight_long:
+    return("flight_long");
+
 
    case Highway_Count:
     ;

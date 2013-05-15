@@ -214,36 +214,36 @@ typedef uint8_t highway_t;
 /*+ The different types of a highway. +*/
 typedef enum _Highway
  {
-  Highway_None         =  0,
+  Highway_None          =  0,
 
-  Highway_Motorway     =  1,
-  Highway_Trunk        =  2,
-  Highway_Primary      =  3,
-  Highway_Secondary    =  4,
-  Highway_Tertiary     =  5,
-  Highway_Unclassified =  6,
-  Highway_Residential  =  7,
-  Highway_Service      =  8,
-  Highway_Track        =  9,
-  Highway_Cycleway     = 10,
-  Highway_Path         = 11,
-  Highway_Steps        = 12,
-  Highway_Ferry        = 13,
-  Highway_Check_in     = 14,
-  Highway_Check_in_dom = 15,
-  Highway_Check_in_int = 16,
+  Highway_Motorway      =  1,
+  Highway_Trunk         =  2,
+  Highway_Primary       =  3,
+  Highway_Secondary     =  4,
+  Highway_Tertiary      =  5,
+  Highway_Unclassified  =  6,
+  Highway_Residential   =  7,
+  Highway_Service       =  8,
+  Highway_Track         =  9,
+  Highway_Cycleway      = 10,
+  Highway_Path          = 11,
+  Highway_Steps         = 12,
+  Highway_Ferry         = 13,
+  Highway_Check_in      = 14,
+  Highway_Check_in_dom  = 15,
+  Highway_Check_in_int  = 16,
   Highway_Check_out_dom = 17,
   Highway_Check_out_int = 18,
-  Highway_Taxi         = 19,
-  Highway_Flight_short = 20,
+  Highway_Taxi          = 19,
+  Highway_Flight_short  = 20,
   Highway_Flight_medium = 21,
-  Highway_Flight_long = 22,
+  Highway_Flight_long   = 22,
   
 
-  Highway_Count        = 23,       /* One more than the number of highway types. */
+  Highway_Count         = 23,       /* One more than the number of highway types. */
 
-  Highway_OneWay       = 32,
-  Highway_Roundabout   = 64
+  Highway_OneWay        = 32,
+  Highway_Roundabout    = 64
  }
  Highway;
 
@@ -259,28 +259,28 @@ typedef enum _Highways
  {
   Highways_None         = 0,
 
-  Highways_Motorway     = HIGHWAYS(Highway_Motorway     ),
-  Highways_Trunk        = HIGHWAYS(Highway_Trunk        ),
-  Highways_Primary      = HIGHWAYS(Highway_Primary      ),
-  Highways_Secondary    = HIGHWAYS(Highway_Secondary    ),
-  Highways_Tertiary     = HIGHWAYS(Highway_Tertiary     ),
-  Highways_Unclassified = HIGHWAYS(Highway_Unclassified ),
-  Highways_Residential  = HIGHWAYS(Highway_Residential  ),
-  Highways_Service      = HIGHWAYS(Highway_Service      ),
-  Highways_Track        = HIGHWAYS(Highway_Track        ),
-  Highways_Cycleway     = HIGHWAYS(Highway_Cycleway     ),
-  Highways_Path         = HIGHWAYS(Highway_Path         ),
-  Highways_Steps        = HIGHWAYS(Highway_Steps        ),
-  Highways_Ferry        = HIGHWAYS(Highway_Ferry        ),
-  Highway_Check_in      = HIGHWAYS(Highway_Check_in     ),
-  Highway_Check_in_dom  = HIGHWAYS(Highway_Check_in_dom ),
-  Highway_Check_in_int  = HIGHWAYS(Highway_Check_in_int ),
-  Highway_Check_out_dom = HIGHWAYS(Highway_Check_out_dom),
-  Highway_Check_out_int = HIGHWAYS(Highway_Check_out_int),
-  Highway_Taxi          = HIGHWAYS(Highway_Taxi			),
-  Highway_Flight_short  = HIGHWAYS(Highway_Flight_short ),
-  Highway_Flight_medium = HIGHWAYS(Highway_Flight_medium),
-  Highway_Flight_long   = HIGHWAYS(Highway_Flight_long	)
+  Highways_Motorway      = HIGHWAYS(Highway_Motorway     ),
+  Highways_Trunk         = HIGHWAYS(Highway_Trunk        ),
+  Highways_Primary       = HIGHWAYS(Highway_Primary      ),
+  Highways_Secondary     = HIGHWAYS(Highway_Secondary    ),
+  Highways_Tertiary      = HIGHWAYS(Highway_Tertiary     ),
+  Highways_Unclassified  = HIGHWAYS(Highway_Unclassified ),
+  Highways_Residential   = HIGHWAYS(Highway_Residential  ),
+  Highways_Service       = HIGHWAYS(Highway_Service      ),
+  Highways_Track         = HIGHWAYS(Highway_Track        ),
+  Highways_Cycleway      = HIGHWAYS(Highway_Cycleway     ),
+  Highways_Path          = HIGHWAYS(Highway_Path         ),
+  Highways_Steps         = HIGHWAYS(Highway_Steps        ),
+  Highways_Ferry         = HIGHWAYS(Highway_Ferry        ),
+  Highways_Check_in      = HIGHWAYS(Highway_Check_in     ),
+  Highways_Check_in_dom  = HIGHWAYS(Highway_Check_in_dom ),
+  Highways_Check_in_int  = HIGHWAYS(Highway_Check_in_int ),
+  Highways_Check_out_dom = HIGHWAYS(Highway_Check_out_dom),
+  Highways_Check_out_int = HIGHWAYS(Highway_Check_out_int),
+  Highways_Taxi          = HIGHWAYS(Highway_Taxi			),
+  Highways_Flight_short  = HIGHWAYS(Highway_Flight_short ),
+  Highways_Flight_medium = HIGHWAYS(Highway_Flight_medium),
+  Highways_Flight_long   = HIGHWAYS(Highway_Flight_long	)
  }
  Highways;
 
