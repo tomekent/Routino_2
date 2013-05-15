@@ -397,7 +397,7 @@ typedef uint8_t length_t;
 #define kph_to_speed(xxx)      (speed_t)(xxx)
 
 /*+ Conversion of speed_t to km/hr. +*/
-#define speed_to_kph(xxx)      (int)(xxx)
+#define speed_to_kph(xxx)      ((double)(xxx))
 
 /*+ Conversion of tonnes to weight_t. +*/
 #define tonnes_to_weight(xxx)  (weight_t)((xxx)*5)

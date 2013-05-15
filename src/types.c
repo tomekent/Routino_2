@@ -654,7 +654,7 @@ const char *HighwayList(void)
         "    check_in_int  = Check_in_int\n"
         "    check_out_dom = Check_out_dom\n"
         "    check_out_int = Check_out_int\n"
-        "    taxi		   = Taxi\n"
+        "    taxi          = Taxi\n"
         "    flight_short  = Flight_short\n"
         "    flight_medium = Flight_medium\n"
         "    flight_long   = Flight_long\n"

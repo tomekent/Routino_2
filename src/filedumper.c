@@ -447,7 +447,7 @@ static void print_way(Ways *ways,index_t item)
  if(wayp->props)
     printf("  props=%02x (%s)\n",wayp->props,PropertiesNameList(wayp->props));
  if(wayp->speed)
-    printf("  speed=%d (%d km/hr)\n",wayp->speed,speed_to_kph(wayp->speed));
+    printf("  speed=%d (%.1f km/hr)\n",wayp->speed,speed_to_kph(wayp->speed));
  if(wayp->weight)
     printf("  weight=%d (%.1f tonnes)\n",wayp->weight,weight_to_tonnes(wayp->weight));
  if(wayp->height)
@@ -731,7 +731,7 @@ static void print_segment_osm(Segments *segments,index_t item,Ways *ways)
        printf("    <tag k='%s' v='yes' />\n",PropertyName(i));
 
  if(wayp->speed)
-    printf("    <tag k='maxspeed' v='%d' />\n",speed_to_kph(wayp->speed));
+    printf("    <tag k='maxspeed' v='%.2f' />\n",speed_to_kph(wayp->speed));
 
  if(wayp->weight)
     printf("    <tag k='maxweight' v='%.1f' />\n",weight_to_tonnes(wayp->weight));

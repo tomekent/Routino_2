@@ -726,8 +726,8 @@ int UpdateProfile(Profile *profile,Ways *ways)
    {
     profile->highway[i]/=hmax;
 
-    if(profile->highway[i]<0.0001)
-       profile->highway[i]=0.0001;
+    if(profile->highway[i]<0.000001)
+       profile->highway[i]=0.000001;
    }
 
  /* Normalise the property preferences into the range ~0 -> 1 */
@@ -750,11 +750,11 @@ int UpdateProfile(Profile *profile,Ways *ways)
     profile->props_yes[i] =sqrt(profile->props_yes[i]);
     profile->props_no [i] =sqrt(profile->props_no[i] );
 
-    if(profile->props_yes[i]<0.0001)
-       profile->props_yes[i]=0.0001;
+    if(profile->props_yes[i]<0.000001)
+       profile->props_yes[i]=0.000001;
 
-    if(profile->props_no[i]<0.0001)
-       profile->props_no[i]=0.0001;
+    if(profile->props_no[i]<0.000001)
+       profile->props_no[i]=0.000001;
    }
 
  /* Find the fastest preferred speed */

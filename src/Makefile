@@ -29,7 +29,7 @@ LD=gcc
 
 # Compilation program options
 
-CFLAGS=-Wall -Wmissing-prototypes -std=c99
+CFLAGS=-Wall -Wmissing-prototypes -std=c99 -g
 #CFLAGS+=-Wextra -pedantic
 LDFLAGS=-lm
 
