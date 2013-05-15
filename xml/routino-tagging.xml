@@ -163,7 +163,7 @@
       </if>
 
       <if k="barrier">
-        <logerror message="ignoring it"/>
+        <logerror message="(barrier) ignoring it"/>
       </if>
 
     </if> <!-- k="barrier" -->
@@ -386,7 +386,7 @@
 
         <unset k="highway"/>
       </if>
-<!-------------Flight Roads------------------>
+<!---			Flight Roads					-->
 				<if k="highway" v="check_in">
 				    <output k="highway"/>
 
@@ -443,6 +443,7 @@
 
 				    <unset k="highway"/>
 				</if>
+				
 				<if k="highway" v="check_out_dom">
 				    <output k="highway"/>
 
@@ -556,7 +557,7 @@
 				
 			
 
-<!------------------------------------------->
+<!-- -->
 
 
 
@@ -761,9 +762,9 @@
 
       <!-- Unrecognised highway type -->
 
-      <if k="highway">
-        <logerror message="ignoring it"/>
-      </if>
+      <!-- <if k="highway">
+              <logerror message="(highway) ignoring it"/>
+            </if> -->
 
       <!-- Normalisation of access tags -->
 
@@ -947,7 +948,7 @@
         </if>
 
         <if k="designation">
-          <logerror message="ignoring it"/>
+          <logerror message="(designation) ignoring it"/>
         </if>
 
       </if> <!-- k="designation" -->
@@ -1059,7 +1060,7 @@
         <if k="surface" v="bark">         <set k="paved" v="no"/> <unset k="surface"/> </if>
 
         <if k="surface">
-          <logerror message="ignoring it"/>
+          <logerror message="(surface) ignoring it"/>
         </if>
 
       </if> <!-- k="surface" -->

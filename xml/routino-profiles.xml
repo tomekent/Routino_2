@@ -31,6 +31,15 @@
       <speed highway="path"          kph="4" />
       <speed highway="steps"         kph="4" />
       <speed highway="ferry"         kph="10" />
+	  <speed highway="check_in"		 kph="0.00555" />
+	  <speed highway="check_in_dom"	 kph="0.00555" />
+	  <speed highway="check_in_int"	 kph="0.01665" />
+	  <speed highway="check_out_dom" kph="0.00555" />
+	  <speed highway="check_out_int" kph="0.0111" />
+	  <speed highway="taxi"  		 kph="0.002775"/>
+	  <speed highway="flight_short"	 kph="750" />
+	  <speed highway="flight_medium" kph="850" />
+	  <speed highway="flight_long"	 kph="1000" />	  
     </speeds>
     <preferences>
       <preference highway="motorway"      percent="0" />
@@ -46,6 +55,16 @@
       <preference highway="path"          percent="100" />
       <preference highway="steps"         percent="80" />
       <preference highway="ferry"         percent="20" />
+	  <preference highway="check_in"	  percent="0" />
+	  <preference highway="check_in_dom"  percent="0" />
+	  <preference highway="check_in_int"  percent="0" />
+	  <preference highway="check_out_dom" percent="0" />
+	  <preference highway="check_out_int" percent="0" />
+	  <preference highway="taxi" 		  percent="0" />
+	  <preference highway="flight_short"  percent="0" />
+	  <preference highway="flight_medium" percent="0" />
+	  <preference highway="flight_long"	  percent="0" />	  
+    </speeds>
     </preferences>
     <properties>
       <property type="paved"        percent="50" />
@@ -80,6 +99,15 @@
       <speed highway="path"          kph="8" />
       <speed highway="steps"         kph="0" />
       <speed highway="ferry"         kph="10" />
+	  <speed highway="check_in"		 kph="0.00555" />
+	  <speed highway="check_in_dom"	 kph="0.00555" />
+	  <speed highway="check_in_int"	 kph="0.01665" />
+	  <speed highway="check_out_dom" kph="0.00555" />
+	  <speed highway="check_out_int" kph="0.0111" />
+	  <speed highway="taxi"  		 kph="0.002775"/>
+	  <speed highway="flight_short"	 kph="750" />
+	  <speed highway="flight_medium" kph="850" />
+	  <speed highway="flight_long"	 kph="1000" />
     </speeds>
     <preferences>
       <preference highway="motorway"      percent="0" />
@@ -95,6 +123,15 @@
       <preference highway="path"          percent="100" />
       <preference highway="steps"         percent="0" />
       <preference highway="ferry"         percent="20" />
+	  <preference highway="check_in"	  percent="0" />
+	  <preference highway="check_in_dom"  percent="0" />
+	  <preference highway="check_in_int"  percent="0" />
+	  <preference highway="check_out_dom" percent="0" />
+	  <preference highway="check_out_int" percent="0" />
+	  <preference highway="taxi" 		  percent="0" />
+	  <preference highway="flight_short"  percent="0" />
+	  <preference highway="flight_medium" percent="0" />
+	  <preference highway="flight_long"	  percent="0" />
     </preferences>
     <properties>
       <property type="paved"        percent="20" />
@@ -129,6 +166,15 @@
       <speed highway="path"          kph="4" />
       <speed highway="steps"         kph="4" />
       <speed highway="ferry"         kph="10" />
+	  <speed highway="check_in"		 kph="0.00555" />
+	  <speed highway="check_in_dom"	 kph="0.00555" />
+	  <speed highway="check_in_int"	 kph="0.01665" />
+	  <speed highway="check_out_dom" kph="0.00555" />
+	  <speed highway="check_out_int" kph="0.0111" />
+	  <speed highway="taxi"  		 kph="0.002775"/>
+	  <speed highway="flight_short"	 kph="750" />
+	  <speed highway="flight_medium" kph="850" />
+	  <speed highway="flight_long"	 kph="1000" />
     </speeds>
     <preferences>
       <preference highway="motorway"      percent="0" />
@@ -144,6 +190,15 @@
       <preference highway="path"          percent="100" />
       <preference highway="steps"         percent="0" />
       <preference highway="ferry"         percent="20" />
+	  <preference highway="check_in"	  percent="0" />
+	  <preference highway="check_in_dom"  percent="0" />
+	  <preference highway="check_in_int"  percent="0" />
+	  <preference highway="check_out_dom" percent="0" />
+	  <preference highway="check_out_int" percent="0" />
+	  <preference highway="taxi" 		  percent="0" />
+	  <preference highway="flight_short"  percent="0" />
+	  <preference highway="flight_medium" percent="0" />
+	  <preference highway="flight_long"	  percent="0" />
     </preferences>
     <properties>
       <property type="paved"        percent="90" />
@@ -178,6 +233,15 @@
       <speed highway="path"          kph="20" />
       <speed highway="steps"         kph="0" />
       <speed highway="ferry"         kph="10" />
+	  <speed highway="check_in"		 kph="0.00555" />
+	  <speed highway="check_in_dom"	 kph="0.00555" />
+	  <speed highway="check_in_int"	 kph="0.01665" />
+	  <speed highway="check_out_dom" kph="0.00555" />
+	  <speed highway="check_out_int" kph="0.0111" />
+	  <speed highway="taxi"  		 kph="0.002775"/>
+	  <speed highway="flight_short"	 kph="750" />
+	  <speed highway="flight_medium" kph="850" />
+	  <speed highway="flight_long"	 kph="1000" />
     </speeds>
     <preferences>
       <preference highway="motorway"      percent="0" />
@@ -193,6 +257,15 @@
       <preference highway="path"          percent="90" />
       <preference highway="steps"         percent="0" />
       <preference highway="ferry"         percent="20" />
+	  <preference highway="check_in"	  percent="100" />
+	  <preference highway="check_in_dom"  percent="100" />
+	  <preference highway="check_in_int"  percent="100" />
+	  <preference highway="check_out_dom" percent="100" />
+	  <preference highway="check_out_int" percent="100" />
+	  <preference highway="taxi" 		  percent="100" />
+	  <preference highway="flight_short"  percent="100" />
+	  <preference highway="flight_medium" percent="100" />
+	  <preference highway="flight_long"	  percent="100" />
     </preferences>
     <properties>
       <property type="paved"        percent="50" />
@@ -227,6 +300,15 @@
       <speed highway="path"          kph="0" />
       <speed highway="steps"         kph="0" />
       <speed highway="ferry"         kph="10" />
+	  <speed highway="check_in"		 kph="0.00555" />
+	  <speed highway="check_in_dom"	 kph="0.00555" />
+	  <speed highway="check_in_int"	 kph="0.01665" />
+	  <speed highway="check_out_dom" kph="0.00555" />
+	  <speed highway="check_out_int" kph="0.0111" />
+	  <speed highway="taxi"  		 kph="0.002775"/>
+	  <speed highway="flight_short"	 kph="750" />
+	  <speed highway="flight_medium" kph="850" />
+	  <speed highway="flight_long"	 kph="1000" />
     </speeds>
     <preferences>
       <preference highway="motorway"      percent="0" />
@@ -242,6 +324,15 @@
       <preference highway="path"          percent="0" />
       <preference highway="steps"         percent="0" />
       <preference highway="ferry"         percent="20" />
+	  <preference highway="check_in"	  percent="100" />
+	  <preference highway="check_in_dom"  percent="100" />
+	  <preference highway="check_in_int"  percent="100" />
+	  <preference highway="check_out_dom" percent="100" />
+	  <preference highway="check_out_int" percent="100" />
+	  <preference highway="taxi" 		  percent="100" />
+	  <preference highway="flight_short"  percent="100" />
+	  <preference highway="flight_medium" percent="100" />
+	  <preference highway="flight_long"	  percent="100" />
     </preferences>
     <properties>
       <property type="paved"        percent="100" />
@@ -276,6 +367,15 @@
       <speed highway="path"          kph="0" />
       <speed highway="steps"         kph="0" />
       <speed highway="ferry"         kph="10" />
+	  <speed highway="check_in"		 kph="0.00555" />
+	  <speed highway="check_in_dom"	 kph="0.00555" />
+	  <speed highway="check_in_int"	 kph="0.01665" />
+	  <speed highway="check_out_dom" kph="0.00555" />
+	  <speed highway="check_out_int" kph="0.0111" />
+	  <speed highway="taxi"  		 kph="0.002775"/>
+	  <speed highway="flight_short"	 kph="750" />
+	  <speed highway="flight_medium" kph="850" />
+	  <speed highway="flight_long"	 kph="1000" />
     </speeds>
     <preferences>
       <preference highway="motorway"      percent="100" />
@@ -291,6 +391,15 @@
       <preference highway="path"          percent="0" />
       <preference highway="steps"         percent="0" />
       <preference highway="ferry"         percent="20" />
+	  <preference highway="check_in"	  percent="100" />
+	  <preference highway="check_in_dom"  percent="100" />
+	  <preference highway="check_in_int"  percent="100" />
+	  <preference highway="check_out_dom" percent="100" />
+	  <preference highway="check_out_int" percent="100" />
+	  <preference highway="taxi" 		  percent="100" />
+	  <preference highway="flight_short"  percent="100" />
+	  <preference highway="flight_medium" percent="100" />
+	  <preference highway="flight_long"	  percent="100" />
     </preferences>
     <properties>
       <property type="paved"        percent="100" />
@@ -325,6 +434,15 @@
       <speed highway="path"          kph="0" />
       <speed highway="steps"         kph="0" />
       <speed highway="ferry"         kph="10" />
+	  <speed highway="check_in"		 kph="0.00555" />
+	  <speed highway="check_in_dom"	 kph="0.00555" />
+	  <speed highway="check_in_int"	 kph="0.01665" />
+	  <speed highway="check_out_dom" kph="0.00555" />
+	  <speed highway="check_out_int" kph="0.0111" />
+	  <speed highway="taxi"  		 kph="0.002775"/>
+	  <speed highway="flight_short"	 kph="750" />
+	  <speed highway="flight_medium" kph="850" />
+	  <speed highway="flight_long"	 kph="1000" />
     </speeds>
     <preferences>
       <preference highway="motorway"      percent="100" />
@@ -340,6 +458,15 @@
       <preference highway="path"          percent="0" />
       <preference highway="steps"         percent="0" />
       <preference highway="ferry"         percent="20" />
+	  <preference highway="check_in"	  percent="100" />
+	  <preference highway="check_in_dom"  percent="100" />
+	  <preference highway="check_in_int"  percent="100" />
+	  <preference highway="check_out_dom" percent="100" />
+	  <preference highway="check_out_int" percent="100" />
+	  <preference highway="taxi" 		  percent="100" />
+	  <preference highway="flight_short"  percent="100" />
+	  <preference highway="flight_medium" percent="100" />
+	  <preference highway="flight_long"	  percent="100" />
     </preferences>
     <properties>
       <property type="paved"        percent="100" />
@@ -389,6 +516,15 @@
       <preference highway="path"          percent="0" />
       <preference highway="steps"         percent="0" />
       <preference highway="ferry"         percent="20" />
+	  <preference highway="check_in"	  percent="0" />
+	  <preference highway="check_in_dom"  percent="0" />
+	  <preference highway="check_in_int"  percent="0" />
+	  <preference highway="check_out_dom" percent="0" />
+	  <preference highway="check_out_int" percent="0" />
+	  <preference highway="taxi" 		  percent="0" />
+	  <preference highway="flight_short"  percent="0" />
+	  <preference highway="flight_medium" percent="0" />
+	  <preference highway="flight_long"	  percent="0" />
     </preferences>
     <properties>
       <property type="paved"        percent="100" />
@@ -423,6 +559,15 @@
       <speed highway="path"          kph="0" />
       <speed highway="steps"         kph="0" />
       <speed highway="ferry"         kph="10" />
+	  <speed highway="check_in"		 kph="0.00555" />
+	  <speed highway="check_in_dom"	 kph="0.00555" />
+	  <speed highway="check_in_int"	 kph="0.01665" />
+	  <speed highway="check_out_dom" kph="0.00555" />
+	  <speed highway="check_out_int" kph="0.0111" />
+	  <speed highway="taxi"  		 kph="0.002775"/>
+	  <speed highway="flight_short"	 kph="750" />
+	  <speed highway="flight_medium" kph="850" />
+	  <speed highway="flight_long"	 kph="1000" />
     </speeds>
     <preferences>
       <preference highway="motorway"      percent="100" />
@@ -438,6 +583,15 @@
       <preference highway="path"          percent="0" />
       <preference highway="steps"         percent="0" />
       <preference highway="ferry"         percent="20" />
+	  <preference highway="check_in"	  percent="0" />
+	  <preference highway="check_in_dom"  percent="0" />
+	  <preference highway="check_in_int"  percent="0" />
+	  <preference highway="check_out_dom" percent="0" />
+	  <preference highway="check_out_int" percent="0" />
+	  <preference highway="taxi" 		  percent="0" />
+	  <preference highway="flight_short"  percent="0" />
+	  <preference highway="flight_medium" percent="0" />
+	  <preference highway="flight_long"	  percent="0" />
     </preferences>
     <properties>
       <property type="paved"        percent="100" />
@@ -472,6 +626,15 @@
       <speed highway="path"          kph="0" />
       <speed highway="steps"         kph="0" />
       <speed highway="ferry"         kph="10" />
+	  <speed highway="check_in"		 kph="0.00555" />
+	  <speed highway="check_in_dom"	 kph="0.00555" />
+	  <speed highway="check_in_int"	 kph="0.01665" />
+	  <speed highway="check_out_dom" kph="0.00555" />
+	  <speed highway="check_out_int" kph="0.0111" />
+	  <speed highway="taxi"  		 kph="0.002775"/>
+	  <speed highway="flight_short"	 kph="750" />
+	  <speed highway="flight_medium" kph="850" />
+	  <speed highway="flight_long"	 kph="1000" />
     </speeds>
     <preferences>
       <preference highway="motorway"      percent="100" />
@@ -487,6 +650,15 @@
       <preference highway="path"          percent="0" />
       <preference highway="steps"         percent="0" />
       <preference highway="ferry"         percent="20" />
+	  <preference highway="check_in"	  percent="0" />
+	  <preference highway="check_in_dom"  percent="0" />
+	  <preference highway="check_in_int"  percent="0" />
+	  <preference highway="check_out_dom" percent="0" />
+	  <preference highway="check_out_int" percent="0" />
+	  <preference highway="taxi" 		  percent="0" />
+	  <preference highway="flight_short"  percent="0" />
+	  <preference highway="flight_medium" percent="0" />
+	  <preference highway="flight_long"	  percent="0" />
     </preferences>
     <properties>
       <property type="paved"        percent="100" />
