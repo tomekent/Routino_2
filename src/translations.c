@@ -43,7 +43,7 @@ char *translate_xml_heading[9] ={"South","South-West","West","North-West","North
 char *translate_xml_turn[9]    ={"Very sharp left","Sharp left","Left","Slight left","Straight on","Slight right","Right","Sharp right","Very sharp right"};
 char *translate_xml_ordinal[10]={"First","Second","Third","Fourth","Fifth","Sixth","Seventh","Eighth","Ninth","Tenth"};
 
-char *translate_raw_highway[Highway_Count]={"","motorway","trunk road","primary road","secondary road","tertiary road","unclassified road","residential road","service road","track","cycleway","path","steps","ferry"};
+char *translate_raw_highway[Highway_Count]={"","motorway","trunk road","primary road","secondary road","tertiary road","unclassified road","residential road","service road","track","cycleway","path","steps","ferry","check_in","check_in_dom","check_in_int","check_out_dom","check_out_int","taxi","flight_short","flight_medium","flight_long"};
 
 char *translate_xml_route_shortest="Shortest";
 char *translate_xml_route_quickest="Quickest";

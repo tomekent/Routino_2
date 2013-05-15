@@ -39,10 +39,18 @@ Highway HighwayType(const char *highway)
    {
    case 'c':
     if(!strcmp(highway,"cycleway")) return(Highway_Cycleway);
-    break;
+    if(!strcmp(highway,"check_in")) return(Highway_Check_in);
+    if(!strcmp(highway,"check_in_dom")) return(Highway_Check_in_dom);
+    if(!strcmp(highway,"check_in_int")) return(Highway_Check_in_int);
+    if(!strcmp(highway,"check_out_dom")) return(Highway_Check_out_dom);
+    if(!strcmp(highway,"check_out_int")) return(Highway_Check_out_int);    
+	break;
 
    case 'f':
     if(!strcmp(highway,"ferry")) return(Highway_Ferry);
+    if(!strcmp(highway,"flight_short")) return(Highway_Flight_short);
+    if(!strcmp(highway,"flight_medium")) return(Highway_Flight_medium);
+    if(!strcmp(highway,"flight_long")) return(Highway_Flight_long);
     break;
 
    case 'm':
@@ -68,6 +76,7 @@ Highway HighwayType(const char *highway)
     if(!strcmp(highway,"trunk")) return(Highway_Trunk);
     if(!strcmp(highway,"tertiary")) return(Highway_Tertiary);
     if(!strcmp(highway,"track")) return(Highway_Track);
+    if(!strcmp(highway,"taxi")) return(Highway_Taxi);
     break;
 
    case 'u':
@@ -414,6 +423,59 @@ const char *HighwaysNameList(highways_t highways)
     strcat(string,"ferry");
    }
 
+ if(highways & Highways_Check_in)
+   {
+    if(*string) strcat(string,", ");
+    strcat(string,"check_in");
+   }
+
+ if(highways & Highways_Check_in_dom)
+   {
+    if(*string) strcat(string,", ");
+    strcat(string,"check_in_dom");
+   }
+
+ if(highways & Highways_Check_in_int)
+   {
+    if(*string) strcat(string,", ");
+    strcat(string,"check_in_int");
+   }
+
+ if(highways & Highways_Check_out_dom)
+   {
+    if(*string) strcat(string,", ");
+    strcat(string,"check_out_dom");
+   }
+
+ if(highways & Highways_Check_out_int)
+   {
+    if(*string) strcat(string,", ");
+    strcat(string,"check_out_int");
+   }
+
+ if(highways & Highways_Taxi)
+   {
+    if(*string) strcat(string,", ");
+    strcat(string,"taxi");
+   }
+
+ if(highways & Highways_Flight_short)
+   {
+    if(*string) strcat(string,", ");
+    strcat(string,"flight_short");
+   }
+
+ if(highways & Highways_Flight_medium)
+   {
+    if(*string) strcat(string,", ");
+    strcat(string,"flight_medium");
+   }
+
+ if(highways & Highways_Flight_long)
+   {
+    if(*string) strcat(string,", ");
+    strcat(string,"flight_long");
+   }
  return(string);
 }
 
@@ -555,19 +617,28 @@ const char *PropertiesNameList(properties_t properties)
 
 const char *HighwayList(void)
 {
- return "    motorway     = Motorway\n"
-        "    trunk        = Trunk\n"
-        "    primary      = Primary\n"
-        "    secondary    = Secondary\n"
-        "    tertiary     = Tertiary\n"
-        "    unclassified = Unclassified\n"
-        "    residential  = Residential\n"
-        "    service      = Service\n"
-        "    track        = Track\n"
-        "    cycleway     = Cycleway\n"
-        "    path         = Path\n"
-        "    steps        = Steps\n"
-        "    ferry        = Ferry\n"
+ return "    motorway      = Motorway\n"
+        "    trunk         = Trunk\n"
+        "    primary       = Primary\n"
+        "    secondary     = Secondary\n"
+        "    tertiary      = Tertiary\n"
+        "    unclassified  = Unclassified\n"
+        "    residential   = Residential\n"
+        "    service       = Service\n"
+        "    track         = Track\n"
+        "    cycleway      = Cycleway\n"
+        "    path          = Path\n"
+        "    steps         = Steps\n"
+        "    ferry         = Ferry\n"
+		"	 check_in      = Check_in\n"
+		"	 check_in_dom  = Check_in_dom\n"
+		"	 check_in_int  = Check_in_int\n"
+		"    check_out_dom = Check_out_dom\n"
+		" 	 check_out_int = Check_out_int\n"
+		"	 taxi		   = Taxi\n"
+		"	 flight_short  = Flight_short\n"
+		" 	 flight_medium = Flight_medium\n"
+		" 	 flight_long   = Flight_long\n"
         ;
 }
 
