@@ -105,7 +105,7 @@ int WaysCompare(Way *way1p,Way *way2p)
     return((int)way1p->props - (int)way2p->props);
 
  if(way1p->speed!=way2p->speed)
-    return((int)way1p->speed - (double)way2p->speed);
+    return((int)way1p->speed - (int)way2p->speed);
 
  if(way1p->weight!=way2p->weight)
     return((int)way1p->weight - (int)way2p->weight);

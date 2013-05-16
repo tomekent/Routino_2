@@ -726,8 +726,8 @@ int UpdateProfile(Profile *profile,Ways *ways)
    {
     profile->highway[i]/=hmax;
 
-    if(profile->highway[i]<0.000001)
-       profile->highway[i]=0.000001;
+    if(profile->highway[i]<0.0001)
+       profile->highway[i]=0.0001;
    }
 
  /* Normalise the property preferences into the range ~0 -> 1 */
@@ -750,11 +750,11 @@ int UpdateProfile(Profile *profile,Ways *ways)
     profile->props_yes[i] =sqrt(profile->props_yes[i]);
     profile->props_no [i] =sqrt(profile->props_no[i] );
 
-    if(profile->props_yes[i]<0.000001)
-       profile->props_yes[i]=0.000001;
+    if(profile->props_yes[i]<0.0001)
+       profile->props_yes[i]=0.0001;
 
-    if(profile->props_no[i]<0.000001)
-       profile->props_no[i]=0.000001;
+    if(profile->props_no[i]<0.0001)
+       profile->props_no[i]=0.0001;
    }
 
  /* Find the fastest preferred speed */
@@ -810,7 +810,7 @@ void PrintProfile(const Profile *profile)
 
  for(i=1;i<Highway_Count;i++)
     if(profile->highway[i])
-       printf("Speed on %-12s: %3d km/h / %2.0f mph\n",HighwayName(i),profile->speed[i],(double)profile->speed[i]/1.6);
+       printf("Speed on %-12s: %2.0fd km/h / %2.0f mph\n",HighwayName(i),(double)profile->speed[i],(double)profile->speed[i]/1.6);
 
  printf("\n");
 

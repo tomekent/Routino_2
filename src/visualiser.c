@@ -938,7 +938,7 @@ static void output_limits(index_t node,double latitude,double longitude)
        switch(limit_type)
          {
          case SPEED_LIMIT:
-          printf("%.6f %.6f %d\n",radians_to_degrees(lat),radians_to_degrees(lon),speed_to_kph(limits[i]));
+          printf("%.6f %.6f %5.2f\n",radians_to_degrees(lat),radians_to_degrees(lon),speed_to_kph(limits[i]));
           break;
          case WEIGHT_LIMIT:
           printf("%.6f %.6f %.1f\n",radians_to_degrees(lat),radians_to_degrees(lon),weight_to_tonnes(limits[i]));

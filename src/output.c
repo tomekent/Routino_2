@@ -771,7 +771,7 @@ void PrintRoute(Results **results,int nresults,Nodes *nodes,Segments *segments,W
                }
              else               /* not the first point */
                {
-                fprintf(textallfile,"%10.6f\t%11.6f\t%8d%c\t%s\t%5.3f\t%5.2f\t%5.2f\t%5.1f\t%3d\t%4d\t%s\n",
+                fprintf(textallfile,"%10.6f\t%11.6f\t%8d%c\t%s\t%5.3f\t%5.2f\t%5.2f\t%5.1f\t%5.2f\t%4d\t%s\n",
                                     radians_to_degrees(latitude),radians_to_degrees(longitude),
                                     IsFakeNode(result->node)?(NODE_FAKE-result->node):result->node,
                                     (resultnodep && IsSuperNode(resultnodep))?'*':' ',type,
