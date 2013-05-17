@@ -205,7 +205,7 @@ typedef float score_t;
 #define hours_to_duration(xx)   ((duration_t)((double)(xx)*36000.0))
 
 /*+ Conversion from distance_t and speed_t to duration_t. +*/
-#define distance_speed_to_duration(xx,yy) ((duration_t)(((double)(xx)/(double)(yy))*(36000.0/1000.0)))
+#define distance_speed_to_duration(xx,yy) ((duration_t)(((double)((xx)*100000)/(double)((yy)))*(36000.0/1000.0)))
 
 
 /*+ The type of a highway. +*/
@@ -378,7 +378,7 @@ typedef enum _Properties
 
 
 /*+ The speed limit of a way, measured in km/hour. +*/
-typedef uint8_t speed_t;
+typedef uint32_t speed_t;
 
 /*+ The maximum weight of a way, measured in multiples of 0.2 tonnes. +*/
 typedef uint8_t weight_t;
@@ -394,10 +394,10 @@ typedef uint8_t length_t;
 
 
 /*+ Conversion of km/hr to speed_t. +*/
-#define kph_to_speed(xxx)      (speed_t)(xxx)
+#define kph_to_speed(xxx)      (speed_t)((xxx)*100000)
 
 /*+ Conversion of speed_t to km/hr. +*/
-#define speed_to_kph(xxx)      ((double)(xxx))
+#define speed_to_kph(xxx)      ((double)((xxx)/100000))
 
 /*+ Conversion of tonnes to weight_t. +*/
 #define tonnes_to_weight(xxx)  (weight_t)((xxx)*5)
