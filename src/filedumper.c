@@ -447,7 +447,7 @@ static void print_way(Ways *ways,index_t item)
  if(wayp->props)
     printf("  props=%02x (%s)\n",wayp->props,PropertiesNameList(wayp->props));
  if(wayp->speed)
-    printf("  speed=%d (%.1f km/hr)\n",wayp->speed,speed_to_kph(wayp->speed));
+    printf("  speed=%5.5f (%.1f km/hr)\n",wayp->speed,speed_to_kph(wayp->speed));
  if(wayp->weight)
     printf("  weight=%d (%.1f tonnes)\n",wayp->weight,weight_to_tonnes(wayp->weight));
  if(wayp->height)

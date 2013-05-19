@@ -34,9 +34,9 @@
 	  <speed highway="check_in"		 kph="0.00555" />
 	  <speed highway="check_in_dom"	 kph="0.00555" />
 	  <speed highway="check_in_int"	 kph="0.01665" />
-	  <speed highway="check_out_dom" kph="0.00555" />
-	  <speed highway="check_out_int" kph="0.0111" />
-	  <speed highway="taxi"  		 kph="0.002775"/>
+	  <speed highway="check_out_dom" kph="0.0076" />
+	  <speed highway="check_out_int" kph="0.0156" />
+	  <speed highway="taxi"  		 kph="0.02775"/>
 	  <speed highway="flight_short"	 kph="750" />
 	  <speed highway="flight_medium" kph="850" />
 	  <speed highway="flight_long"	 kph="1000" />	  
@@ -101,9 +101,9 @@
 	  <speed highway="check_in"		 kph="0.00555" />
 	  <speed highway="check_in_dom"	 kph="0.00555" />
 	  <speed highway="check_in_int"	 kph="0.01665" />
-	  <speed highway="check_out_dom" kph="0.00555" />
-	  <speed highway="check_out_int" kph="0.0111" />
-	  <speed highway="taxi"  		 kph="0.002775"/>
+	  <speed highway="check_out_dom" kph="0.0076" />
+	  <speed highway="check_out_int" kph="0.0156" />
+	  <speed highway="taxi"  		 kph="0.02775"/>
 	  <speed highway="flight_short"	 kph="750" />
 	  <speed highway="flight_medium" kph="850" />
 	  <speed highway="flight_long"	 kph="1000" />
@@ -168,9 +168,9 @@
 	  <speed highway="check_in"		 kph="0.00555" />
 	  <speed highway="check_in_dom"	 kph="0.00555" />
 	  <speed highway="check_in_int"	 kph="0.01665" />
-	  <speed highway="check_out_dom" kph="0.00555" />
-	  <speed highway="check_out_int" kph="0.0111" />
-	  <speed highway="taxi"  		 kph="0.002775"/>
+	  <speed highway="check_out_dom" kph="0.0076" />
+	  <speed highway="check_out_int" kph="0.0156" />
+	  <speed highway="taxi"  		 kph="0.02775"/>
 	  <speed highway="flight_short"	 kph="750" />
 	  <speed highway="flight_medium" kph="850" />
 	  <speed highway="flight_long"	 kph="1000" />
@@ -235,9 +235,9 @@
 	  <speed highway="check_in"		 kph="0.00555" />
 	  <speed highway="check_in_dom"	 kph="0.00555" />
 	  <speed highway="check_in_int"	 kph="0.01665" />
-	  <speed highway="check_out_dom" kph="0.00555" />
-	  <speed highway="check_out_int" kph="0.0111" />
-	  <speed highway="taxi"  		 kph="0.002775"/>
+	  <speed highway="check_out_dom" kph="0.0076" />
+	  <speed highway="check_out_int" kph="0.0156" />
+	  <speed highway="taxi"  		 kph="0.02775"/>
 	  <speed highway="flight_short"	 kph="750" />
 	  <speed highway="flight_medium" kph="850" />
 	  <speed highway="flight_long"	 kph="1000" />
@@ -302,9 +302,9 @@
 	  <speed highway="check_in"		 kph="0.00555" />
 	  <speed highway="check_in_dom"	 kph="0.00555" />
 	  <speed highway="check_in_int"	 kph="0.01665" />
-	  <speed highway="check_out_dom" kph="0.00555" />
-	  <speed highway="check_out_int" kph="0.0111" />
-	  <speed highway="taxi"  		 kph="0.002775"/>
+	  <speed highway="check_out_dom" kph="0.0076" />
+	  <speed highway="check_out_int" kph="0.0156" />
+	  <speed highway="taxi"  		 kph="0.02775"/>
 	  <speed highway="flight_short"	 kph="750" />
 	  <speed highway="flight_medium" kph="850" />
 	  <speed highway="flight_long"	 kph="1000" />
@@ -369,9 +369,9 @@
 	  <speed highway="check_in"		 kph="0.00555" />
 	  <speed highway="check_in_dom"	 kph="0.00555" />
 	  <speed highway="check_in_int"	 kph="0.01665" />
-	  <speed highway="check_out_dom" kph="0.00555" />
-	  <speed highway="check_out_int" kph="0.0111" />
-	  <speed highway="taxi"  		 kph="0.002775"/>
+	  <speed highway="check_out_dom" kph="0.0076" />
+	  <speed highway="check_out_int" kph="0.0156" />
+	  <speed highway="taxi"  		 kph="0.02775"/>
 	  <speed highway="flight_short"	 kph="750" />
 	  <speed highway="flight_medium" kph="850" />
 	  <speed highway="flight_long"	 kph="1000" />
@@ -436,9 +436,9 @@
 	  <speed highway="check_in"		 kph="0.00555" />
 	  <speed highway="check_in_dom"	 kph="0.00555" />
 	  <speed highway="check_in_int"	 kph="0.01665" />
-	  <speed highway="check_out_dom" kph="0.00555" />
-	  <speed highway="check_out_int" kph="0.0111" />
-	  <speed highway="taxi"  		 kph="0.002775"/>
+	  <speed highway="check_out_dom" kph="0.0076" />
+	  <speed highway="check_out_int" kph="0.0156" />
+	  <speed highway="taxi"  		 kph="0.02775"/>
 	  <speed highway="flight_short"	 kph="750" />
 	  <speed highway="flight_medium" kph="850" />
 	  <speed highway="flight_long"	 kph="1000" />
@@ -561,9 +561,9 @@
 	  <speed highway="check_in"		 kph="0.00555" />
 	  <speed highway="check_in_dom"	 kph="0.00555" />
 	  <speed highway="check_in_int"	 kph="0.01665" />
-	  <speed highway="check_out_dom" kph="0.00555" />
-	  <speed highway="check_out_int" kph="0.0111" />
-	  <speed highway="taxi"  		 kph="0.002775"/>
+	  <speed highway="check_out_dom" kph="0.0076" />
+	  <speed highway="check_out_int" kph="0.0156" />
+	  <speed highway="taxi"  		 kph="0.02775"/>
 	  <speed highway="flight_short"	 kph="750" />
 	  <speed highway="flight_medium" kph="850" />
 	  <speed highway="flight_long"	 kph="1000" />
@@ -628,9 +628,9 @@
 	  <speed highway="check_in"		 kph="0.00555" />
 	  <speed highway="check_in_dom"	 kph="0.00555" />
 	  <speed highway="check_in_int"	 kph="0.01665" />
-	  <speed highway="check_out_dom" kph="0.00555" />
-	  <speed highway="check_out_int" kph="0.0111" />
-	  <speed highway="taxi"  		 kph="0.002775"/>
+	  <speed highway="check_out_dom" kph="0.0076" />
+	  <speed highway="check_out_int" kph="0.0156" />
+	  <speed highway="taxi"  		 kph="0.02775"/>
 	  <speed highway="flight_short"	 kph="750" />
 	  <speed highway="flight_medium" kph="850" />
 	  <speed highway="flight_long"	 kph="1000" />

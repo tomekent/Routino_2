@@ -242,7 +242,7 @@ static void print_ways(const char *filename)
     if(wayx.way.props)
        printf("  props=%02x\n",wayx.way.props);
     if(wayx.way.speed)
-       printf("  speed=%d\n",wayx.way.speed);
+       printf("  speed=%5.5f\n",wayx.way.speed);
     if(wayx.way.weight)
        printf("  weight=%d\n",wayx.way.weight);
     if(wayx.way.height)
